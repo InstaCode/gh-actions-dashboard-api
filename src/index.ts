@@ -26,7 +26,6 @@ app.use('/api/applications', applicationsRouter);
 app.use(errorHandler);
 app.use(notFoundHandler);
 app.use(compression);
-app.use;
 
 if (process.env.NODE_ENV !== 'test') {
   connect();
